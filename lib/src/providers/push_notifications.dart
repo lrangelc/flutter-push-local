@@ -30,9 +30,12 @@ class PushNotificationProvider {
     }, onLaunch: (info) async {
       print('============ On Launch ===============');
       print(info);
-      final noti = info['data']['comida'];
-      print(noti);
-      _mensajesStreamController.sink.add(noti);
+      
+      String argumento = 'no-data';
+      if (Platform.isAndroid) {
+        argumento = info['data']['comida'] ?? 'no-data';
+      }
+      _mensajesStreamController.sink.add(argumento);
     }, onResume: (info) async {
       print('============ On Resume ===============');
       print(info);
