@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "673976859234",
+    "firebase_url": "https://fixx-sandbox.firebaseio.com",
+    "project_id": "fixx-sandbox",
+    "storage_bucket": "fixx-sandbox.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673976859234:android:8ccbf369ebb8e76786ef3b",
+        "android_client_info": {
+          "package_name": "com.luisrangelc.pushlocal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673976859234-q43l7pdu2601im9evph1thaklm58q0s6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.luisrangelc.pushlocal",
+            "certificate_hash": "3434cd29c80b96deb5b155b325c604188b5c654e"
+          }
+        },
+        {
+          "client_id": "673976859234-r2m9num4br4n9cu9tbvllotf3qug8epg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAMEy2Jb7o93ZHZMKZg6W72zSdltWvt7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673976859234-r2m9num4br4n9cu9tbvllotf3qug8epg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
